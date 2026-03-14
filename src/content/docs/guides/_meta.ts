@@ -1,41 +1,66 @@
 export default {
-	"customize-app-config": {
-		title: "Customize app config",
-	},
-	"customize-compose-and-traefik": {
-		title: "Customize Runtipi compose and traefik config",
-	},
-	"expose-your-apps": {
-		title: "Expose your apps",
-	},
-	"expose-apps-with-cloudflare-tunnels": {
-		title: "Expose your apps using Cloudflare tunnels",
-	},
-	"dns-challenge-cloudflare": {
-		title: "Setup a DNS challenge with Cloudflare",
-	},
-	"linking-a-domain-to-your-dashboard": {
-		title: "Linking a domain to your dashboard",
-	},
-	"local-certificate": {
-		title: "Local SSL certificate",
-	},
-	uninstalling: {
-		title: "Uninstalling",
-	},
-	"backup-and-restore": {
-		title: "Backup and restore",
-	},
-	"auto-update-with-cron": {
-		title: "Auto update your instance with cron",
-	},
-	"auto-backup-apps": {
-		title: "Auto backup your apps using cron",
-	},
-	"create-your-own-app-store": {
-		title: "Create your own app store",
-	},
-	"dynamic-compose-guide": {
-		title: "Creating a dynamic compose file",
-	},
+  overview: {
+    title: "Overview",
+  },
+  "###": {
+    type: "separator",
+    title: "Networking",
+  },
+  "expose-your-apps": {
+    title: "Expose apps to internet",
+  },
+  "expose-apps-with-cloudflare-tunnels": {
+    title: "Expose with Cloudflare tunnels",
+  },
+  "local-certificate": {
+    title: "Local SSL certificates",
+  },
+  "dns-challenge-cloudflare": {
+    title: "DNS challenge (Cloudflare)",
+  },
+  "linking-a-domain-to-your-dashboard": {
+    title: "Custom domain for dashboard",
+  },
+  "--- Customization": {
+    type: "separator",
+    title: "Customization",
+  },
+  "customize-app-config": {
+    title: "Customize app config",
+  },
+  "customize-compose-and-traefik": {
+    title: "Customize docker compose & traefik",
+  },
+  "custom-settings": {
+    title: "Custom settings",
+  },
+  "custom-environment-variables": {
+    title: "Custom environment variables",
+  },
+  "--- Backup & Maintenance": {
+    type: "separator",
+    title: "Backup & maintenance",
+  },
+  "backup-and-restore": {
+    title: "Backup and restore",
+  },
+  "auto-backup-apps": {
+    title: "Auto-backup with cron",
+  },
+  "auto-update-with-cron": {
+    title: "Auto-update with cron",
+  },
+  "--- Advanced": {
+    type: "separator",
+    title: "Advanced",
+  },
+  "create-your-own-app-store": {
+    title: "Create custom App Store",
+  },
+  "dynamic-compose-guide": {
+    title: "Dynamic compose files",
+  },
+  uninstalling: {
+    title: "Uninstalling Runtipi",
+  },
 };

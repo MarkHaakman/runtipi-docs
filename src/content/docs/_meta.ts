@@ -2,19 +2,25 @@ export default {
   introduction: {
     title: "Introduction",
   },
+  "quick-start": {
+    title: "Quick start",
+  },
   "apps-available": {
     title: "Apps Available",
   },
-  "getting-started": {
-    title: "Getting Started",
+  learn: {
+    title: "Learn",
   },
   guides: {
     title: "Guides",
   },
+  security: {
+    title: "Security & maintenance",
+  },
   reference: {
     title: "Reference",
   },
-  contributing: {
-    title: "Contributing",
+  developers: {
+    title: "For developers",
   },
 };

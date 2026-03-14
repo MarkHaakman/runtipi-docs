@@ -5,6 +5,9 @@ export default {
   "folder-structure": {
     title: "Folder Structure",
   },
+  "using-the-cli": {
+    title: "Using the CLI",
+  },
   "third-party-services": {
     title: "Third-party services",
   },
@@ -13,5 +16,14 @@ export default {
   },
   "dynamic-compose": {
     title: "Dynamic compose",
+  },
+  "environment-variables": {
+    title: "Environment variables",
+  },
+  "breaking-updates": {
+    title: "Breaking updates",
+  },
+  "release-notes": {
+    title: "Release notes",
   },
 };
